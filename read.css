@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+nav{
+    height:90px;
+    width:100%;
+    background-color:#FFFFFF;
+    position:sticky;
+    z-index:10;
+    top: 0px;
+}
+.ico{
+    height:40px;
+    width:200px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left:60px;
+    top:25px;
+}
+.ic{
+    height:100%;
+    width:15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ic i{
+    font-size:15px;
+}
+.ic i:hover{
+    color:#FF3272;
+    cursor: pointer;
+}
+.img{
+    position: absolute; 
+    left:45%;
+    top:15px;
+    cursor: pointer;
+}
+ul{
+    list-style:none;
+    display: flex;
+    position: absolute;
+    right:120px;
+    top:30px;
+}
+li{
+    margin-left:20px;
+    text-wrap:nowrap;
+}
+.li1{
+    color: #FF3272;
+}
+li:hover{
+    color: #FF3272; 
+    cursor: pointer;
+    transition-duration:.5s;
+}
+.list:hover .drop{
+   /* opacity: 100%; */
+   transition-duration:0.3s;
+   display: block;
+   height: 50vh;
+}
+.list{
+    position: relative;
+}
+.drop{
+    height:0vh;
+    width:15vw;
+    background-color:transparent;
+    position: absolute;
+    z-index:-400;
+    overflow: hidden;
+}
+.dro{
+    height:90%;
+    width:100%;
+    background-color:#FAFAFA;
+    position: absolute;
+    bottom:-40px;
+    opacity:0;
+}
+.list:hover .dro{
+    bottom:0px;
+    opacity:1;
+    transition-duration:2s;
+}
+.dro p{
+    font-size:20px;
+    color:gray;
+    margin-top:9px;
+}
+.dro hr{
+    margin-top:9px;
+    opacity:40%;
+}
+.lll{
+    height:5px;
+    width:100%;
+    background-color: #FF3271;
+}
+.icon{
+    font-size:25px;
+    position: absolute;
+    right:70px;
+    top:23px;
+    cursor: pointer;
+}
+main{
+    height:90vh;
+    width:100%;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+main img{
+    height:200px;
+    position: absolute;
+    bottom:100px;
+    cursor: text;
+}
+.create{
+    height:95vh;
+    width:100%;
+    padding-top:150px;
+    padding-left:90px;
+    box-sizing: border-box;
+}
+.line{
+    height:3px;
+    width:70px;
+    background-color: #FF3272;
+    margin-top:20px;
+}
+.p3{
+    color:gray;
+    margin-top:20px;
+    line-height:30px;
+    letter-spacing:0px;
+}
+.box{
+    height:70px;
+    width:80%;
+    /* background-color:orange; */
+    margin-top:50px;
+    display: flex;
+}
+.bo{
+    height:100%;
+    width:20%;
+    /* background-color:red; */
+    color: black;
+    position: relative;
+}
+.bo1{
+    height:100%;
+    width:30%;
+    padding-left:30px;
+    box-sizing: border-box;
+    /* background-color:#FF3271; */
+    position: relative;
+}
+.boo{
+    border-left:1px solid gray;
+    border-right:1px solid gray;
+}
+.booo{
+    padding-left:30px;
+    box-sizing: border-box;
+    border-left:1px solid gray;
+}
+.p1{
+    font-size:12px;
+    position: absolute;
+    color:gray;
+    top:10px; 
+}
+.p2{
+    position: absolute;
+    top:30px;
+}
+.btn{
+    height:70px;
+    width:50px;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    font-size:20px;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    bottom:10px;
+    right:20px;
+    z-index:30;
+    transition-duration:0.5s;
+}
+.btn:hover{
+    background-color: #FF3271;
+    transition-duration:1s;
+    cursor: pointer;
+}
+section{
+    height:300vh;
+    width:100%;
+    background-color: white;
+    display:grid;
+    grid-template-rows:32% 32% 32%;
+    grid-template-columns:86%;
+    justify-content: center;
+    gap:30px;
+}
+.child img{
+    height:100%;
+    width:100%;
+}
+.emp{
+    height:120px;
+    width:100%;
+    background-color:white;
+}
+footer{
+    height:45vh;
+    width:100%;
+    background-color:whitesmoke;
+    position: relative;
+}
+footer img{
+    position: absolute;
+    left:45%;
+    top:70px;
+}
+footer p{
+    font-size:15px;
+    position: absolute;
+    left:40%;
+    top:130px;
+}
+.ul1{
+    height:30px;
+    width:200px;
+    position: absolute;
+    left:43.5%;
+    top:57%;
+    display: flex;
+    justify-content: space-between;
+}
+.li{
+    height:100%;
+    width:15%;
+    text-align: center;
+}
+.li1{
+    height:100%;
+    width:20%;
+}
+.li1 i{
+    font-size:30px;
+    margin-left:5px;
+    margin-top:10px;
+}
+.li i{
+    margin-top:15px;
+}
+.li i:hover{
+    color:#FF3271;
+    cursor: pointer;
+}
+
+
